@@ -3,7 +3,7 @@ body{
   text-align: center;
   margin: 0;
   font-family: sans-serif;
-  background-image: url("https://cdn.pixabay.com/photo/2018/02/20/17/58/landscape-3168365_1280.jpg");
+  /* background-image: url("https://cdn.naturettl.com/wp-content/uploads/2014/07/22014424/featured4.jpg"); */
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -12,12 +12,15 @@ h1{
   text-align:left;
   margin: 3rem;
 }
+h2{
+  font-size: 4rem;
+}
 .wrapper{
   vertical-align: bottom;
 }
 .date{
   margin: 8rem 0 1rem 3rem;
-  color: yellow;
+  color: white;
 }
 .city{
   margin-left: 3rem;
@@ -30,11 +33,19 @@ h1{
   border-right: 0;
   color: white;
   border-color: white;
-  width: 500px;
+  text-align: center;
+  width: 400px;
+}
+.city-input:focus{
+  outline: none;
+}
+::-webkit-input-placeholder {
+   text-align: center;
 }
 .city-input:active{
   color: white;
   border : 0;
+  outline: none;
 }
 .city-submit{
   color: white;

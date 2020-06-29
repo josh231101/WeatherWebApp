@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Weather App</title>
+  <link rel="stylesheet" href="/css/styles.css">
+</head>
+
+<body style="background-image : url('<%=imgWeatherUrl%>')">
+  <h1>Weather App</h1>
+
+  <div class="wrapper">
+    <div class="date">
+      <h2>13 May</h2>
+    </div>
+
+    <div class="city">
+      <form action="/" method="post" spellcheck="false">
+        <% if(city != ""){%>
+        <input class="city-input" type="text" name="city" placeholder="Write the city" value="<%=city%> " autocomplete="off" autofocus="off">
+        <% }else{%>
+        <input class="city-input" type="text" name="city" placeholder="Write the city" autocomplete="off" autofocus="off">
+        <%  }%>
+
+        <button class="city-submit" type="submit" name="Check city">➡️</button>
+      </form>
+
+      <h2><%=temperature%></h2>
+
+    </div>
+
+  </div>
+
+
+
+</body>
+
+</html>
