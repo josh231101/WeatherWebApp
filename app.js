@@ -3,6 +3,7 @@ const https = require("https");
 const bodyParser = require("body-parser");
 const ejs = require("ejs");
 const app = express();
+//TODO: ADDING EJS MODULE TO CREATE A BETTER LOOK AND FEEL
 
 app.use(bodyParser.urlencoded({extended:true}));
 app.use(express.static("public"))
