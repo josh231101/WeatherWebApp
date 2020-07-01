@@ -17,7 +17,6 @@ let imgWeatherUrl = "https://cdn.naturettl.com/wp-content/uploads/2014/07/220144
 const apiKey = "736e90ffa8b745b5b82c3fee64e9a86e";
 const unit = "metric";
 
-
 app.get("/", function(req, res) {
   res.render("index", {
     imgWeatherUrl: imgWeatherUrl,
@@ -25,7 +24,6 @@ app.get("/", function(req, res) {
     temperature: ""
   })
 });
-
 
 app.post("/", function(req, res) {
   const city = req.body.city;
