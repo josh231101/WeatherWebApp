@@ -1,0 +1,3 @@
+exports.getUrlImage = function(icon){
+  
+}
