@@ -66,11 +66,13 @@ h2{
   background-color: transparent;
   border : 0;
   display: inline-block;
+  outline: none;
   -webkit-transform: perspective(1px) translateZ(0);
   transform: perspective(1px) translateZ(0);
   box-shadow: 0 0 1px rgba(0, 0, 0, 0);
 }
 .city-submit:hover,.city-submit:focus, .city-submit:active{
+  outline: none;
   -webkit-animation-name: hvr-pulse-grow;
 animation-name: hvr-pulse-grow;
 -webkit-animation-duration: 0.3s;
