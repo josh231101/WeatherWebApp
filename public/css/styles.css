@@ -47,12 +47,38 @@ h2{
   border : 0;
   outline: none;
 }
+/*ANIMATION EFFECT*/
+@-webkit-keyframes hvr-pulse-grow {
+  to {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+  }
+}
+@keyframes hvr-pulse-grow {
+  to {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+  }
+}
 .city-submit{
   color: white;
   font-size: 3rem;
   background-color: transparent;
   border : 0;
+  display: inline-block;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
 }
-.city-submit:hover{
-  color: grey;
+.city-submit:hover,.city-submit:focus, .city-submit:active{
+  -webkit-animation-name: hvr-pulse-grow;
+animation-name: hvr-pulse-grow;
+-webkit-animation-duration: 0.3s;
+animation-duration: 0.3s;
+-webkit-animation-timing-function: linear;
+animation-timing-function: linear;
+-webkit-animation-iteration-count: infinite;
+animation-iteration-count: infinite;
+-webkit-animation-direction: alternate;
+animation-direction: alternate;
 }
