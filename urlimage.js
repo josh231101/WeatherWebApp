@@ -1,5 +1,5 @@
 exports.getUrlImage = function(icon){
-  var imgWeatherUrl;
+  var imgWeatherUrl ;
   switch (icon) {
     case "01d":
     case "01n":
