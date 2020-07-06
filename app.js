@@ -63,6 +63,10 @@ app.post("/", function(req, res) {
     }
   });
 });
-app.listen(8080, function() {
+let port = process.env.PORT;
+if(port == null || port = ""){
+  port = 3000
+}
+app.listen(port, function() {
   console.log("Website running succesfully");
 })
