@@ -3,7 +3,6 @@ body{
   text-align: center;
   margin: 0;
   font-family: sans-serif;
-  /* background-image: url("https://cdn.naturettl.com/wp-content/uploads/2014/07/22014424/featured4.jpg"); */
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -19,11 +18,11 @@ h2{
   vertical-align: bottom;
 }
 .date{
-  margin: 8rem 0 1rem 3rem;
+  margin: 8rem 3rem 1rem 3rem;
   color: white;
 }
 .city{
-  margin-left: 3rem;
+  margin: 0rem 3rem 1rem 3rem;
 }
 .city-input{
   font-size: 4rem;
@@ -41,6 +40,7 @@ h2{
 }
 ::-webkit-input-placeholder {
    text-align: center;
+   color: #c8c9c9;
 }
 .city-input:active{
   color: white;

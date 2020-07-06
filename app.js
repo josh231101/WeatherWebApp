@@ -12,8 +12,11 @@ app.use(bodyParser.urlencoded({
 }));
 app.use(express.static("public"))
 app.set("view engine", "ejs");
+//OTHER BACKGROUNDS FOR THE WEB
+//https://i.pinimg.com/originals/96/ba/b6/96bab67b1d6ba3857c7f27f5c4909ecf.jpg
+//https://drscdn.500px.org/photo/70194569/m%3D900/v2?sig=96195b13d39d9d0a6830198a2bd07b98f70752bb2054181d1710025256efb35c
 
-const imgWeatherUrl = "https://i.pinimg.com/originals/96/ba/b6/96bab67b1d6ba3857c7f27f5c4909ecf.jpg"
+const imgWeatherUrl = "https://drscdn.500px.org/photo/76564893/m%3D900/v2?sig=2ca738241f1a72d41dd1284fea71052585612514bc55623fe3b2fd5e40c73ca5"
 //API CONST NEEDED
 const apiKey = "736e90ffa8b745b5b82c3fee64e9a86e";
 const unit = "metric";
