@@ -8,11 +8,11 @@ With weather app you will be able to find the current weather in every part of t
 
 ## Features:fire:
 
-Write a city,country,capital, etc and using the button or enter you will have:<br>
+Write a city, country, capital, etc and using the button or enter you will have:<br>
 1. The city you wrote in the form
 2. The current weather in °C
-3. Super cool backgrounds accordings to the weather. 
-4. The background image also shows if its day or night in the image.
+3. Super cool backgrounds according to the weather. 
+4. If its night/day in the city the code gets rid of it and shows the day/night background.<br>
 <img src="/public/images/test.png"> <br>
 
 ## Tech Stack
@@ -53,9 +53,6 @@ $ npm install express, body-parser, https, ejs
 ```
 
 Go the app.js and change the `apiKey` const an set your own API key :key: <br>
-
-Open two tabs in your terminal, then write `mongod` in one and `mongo` in the other.<br>
-
 
 You are now ready to run the weather app in your localhost:<br>
 
