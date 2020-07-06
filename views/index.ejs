@@ -5,14 +5,18 @@
   <meta charset="utf-8">
   <title>Weather App</title>
   <link rel="stylesheet" href="/css/styles.css">
+  <!--Icon made by DinosoftLabs-->
+
+  <link rel="icon" href="/images/favicon.ico">
 </head>
+<!--Backgroud images are not mine. All rights to their respective owners -->
 
 <body style="background-image : url('<%=imgWeatherUrl%>')">
   <h1>Weather App</h1>
 
   <div class="wrapper">
     <div class="date">
-      <h2>13 May</h2>
+      <h2><%=date%></h2>
     </div>
 
     <div class="city">
@@ -27,13 +31,8 @@
       </form>
 
       <h2><%=temperature%></h2>
-
     </div>
-
   </div>
-
-
-
 </body>
 
 </html>
